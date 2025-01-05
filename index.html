@@ -7,86 +7,97 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #e9f5f5;
+            background-color: #f4f4f9;
             color: #333;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
         .container {
-            width: 80%;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
             background-color: #fff;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        h1 {
-            font-size: 28px;
-            text-align: center;
-            color: #00695c;
-        }
-        .photo {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
             text-align: center;
         }
-        .photo img {
-            width: 180px;
+        .profile-pic {
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
+            object-fit: cover;
             margin-bottom: 20px;
         }
+        h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
         .section-title {
-            font-size: 22px;
-            color: #00695c;
-            margin-top: 30px;
-            border-bottom: 2px solid #00695c;
+            font-size: 20px;
+            margin: 20px 0 10px;
+            color: #333;
+            border-bottom: 2px solid #e0e0e0;
             display: inline-block;
             padding-bottom: 5px;
         }
         ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
+            text-align: left;
+            display: inline-block;
         }
         li {
             margin-bottom: 10px;
-            line-height: 1.6;
-        }
-        .contact-info {
-            text-align: center;
-            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
         }
         .contact-info a {
-            color: #00695c;
+            color: #1a73e8;
             text-decoration: none;
-            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="photo">
-            <img src="your-photo.jpg" alt="Mohammad Esfandiari">
-        </div>
+        <img src="your-photo.jpg" alt="Mohammad Esfandiari" class="profile-pic">
         <h1>Mohammad Esfandiari</h1>
-        <p>I’m Mohammad, a master’s student in psychology, passionate about cognitive and behavioral neuroscience. I have hands-on experience in experimental design, programming psychophysics tasks, and interdisciplinary collaboration. I strive to apply my analytical skills to advance our understanding of human cognition.</p>
-
-        <h2 class="section-title">Education</h2>
-        <ul>
-            <li><strong>Master’s in General Psychology</strong>, Allameh Tabataba’i University, Tehran (Current)</li>
-            <li><strong>Bachelor’s in Counseling</strong>, Shahid Beheshti University, Tehran (Graduated: July 2023)</li>
-        </ul>
-
-        <h2 class="section-title">Skills</h2>
-        <ul>
-            <li>Programming: Python, MATLAB, SQL, Git, WSL, VS Code</li>
-            <li>Experiment Design: Psychophysical tasks, behavioral data collection</li>
-            <li>Data & Research: Literature review, data organization, and statistical analysis</li>
-        </ul>
-
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-info">
+        <p>Master’s student in Psychology with a passion for cognitive and behavioral neuroscience. Experienced in experimental design, programming psychophysics tasks, and interdisciplinary collaboration.</p>
+        
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><strong>Master’s in General Psychology</strong><br>Allameh Tabataba’i University, Tehran (Current)</li>
+                <li><strong>Bachelor’s in Counseling</strong><br>Shahid Beheshti University, Tehran (Graduated: July 2023)</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Programming: Python, MATLAB, SQL, Git</li>
+                <li>Experiment Design: Psychophysical tasks, behavioral data collection</li>
+                <li>Data Analysis: Statistical analysis, data organization</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Contact</h2>
             <p>Email: <a href="mailto:mohammadesfandiari32@gmail.com">mohammadesfandiari32@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/Mohammad-Esfandiari23" target="_blank">Mohammad-Esfandiari23</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/mohammad-esfandiari" target="_blank">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/Mohammad-Esfandiari23" target="_blank">github.com/Mohammad-Esfandiari23</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/mohammad-esfandiari" target="_blank">linkedin.com/in/mohammad-esfandiari</a></p>
         </div>
     </div>
 </body>
