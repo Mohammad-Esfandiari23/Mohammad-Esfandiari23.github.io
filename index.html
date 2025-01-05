@@ -3,26 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>Mohammad Esfandiari | Portfolio</title>
     <style>
         body {
-            background-color: #f0f4f8;
             font-family: Arial, sans-serif;
+            background-color: #e9f5f5;
             color: #333;
-            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 40px auto;
             padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 28px;
+            text-align: center;
+            color: #00695c;
+        }
+        .photo {
+            text-align: center;
+        }
+        .photo img {
+            width: 180px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 22px;
+            color: #00695c;
+            margin-top: 30px;
+            border-bottom: 2px solid #00695c;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .contact-info {
+            text-align: center;
             margin-top: 20px;
         }
-        p {
-            font-size: 1.2rem;
+        .contact-info a {
+            color: #00695c;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a simple portfolio built with Jekyll and GitHub Pages.</p>
+    <div class="container">
+        <div class="photo">
+            <img src="your-photo.jpg" alt="Mohammad Esfandiari">
+        </div>
+        <h1>Mohammad Esfandiari</h1>
+        <p>I’m Mohammad, a master’s student in psychology, passionate about cognitive and behavioral neuroscience. I have hands-on experience in experimental design, programming psychophysics tasks, and interdisciplinary collaboration. I strive to apply my analytical skills to advance our understanding of human cognition.</p>
+
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li><strong>Master’s in General Psychology</strong>, Allameh Tabataba’i University, Tehran (Current)</li>
+            <li><strong>Bachelor’s in Counseling</strong>, Shahid Beheshti University, Tehran (Graduated: July 2023)</li>
+        </ul>
+
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Programming: Python, MATLAB, SQL, Git, WSL, VS Code</li>
+            <li>Experiment Design: Psychophysical tasks, behavioral data collection</li>
+            <li>Data & Research: Literature review, data organization, and statistical analysis</li>
+        </ul>
+
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:mohammadesfandiari32@gmail.com">mohammadesfandiari32@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Mohammad-Esfandiari23" target="_blank">Mohammad-Esfandiari23</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/mohammad-esfandiari" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </div>
 </body>
 </html>
